@@ -1,0 +1,26 @@
+{
+  "name": "title2-accessibility-bot",
+  "version": "1.0.0",
+  "description": "ADA Title II Accessibility Guidance Chatbot — $0 Prototype",
+  "main": "dist/functions/messages.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "func start",
+    "dev": "npm run build && npm run start",
+    "clean": "rimraf dist",
+    "prestart": "npm run build"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "botbuilder": "^4.23.0",
+    "botframework-connector": "^4.23.0",
+    "openai": "^4.67.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "rimraf": "^5.0.0"
+  }
+}
