@@ -82,7 +82,7 @@ async function messagesHandler(
 app.http("messages", {
     methods: ["POST"],
     authLevel: "anonymous",
-    route: "api/messages",
+    route: "messages",
     handler: messagesHandler,
 });
 

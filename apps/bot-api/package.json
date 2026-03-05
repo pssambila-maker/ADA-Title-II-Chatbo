@@ -2,7 +2,7 @@
   "name": "title2-accessibility-bot",
   "version": "1.0.0",
   "description": "ADA Title II Accessibility Guidance Chatbot — $0 Prototype",
-  "main": "dist/functions/messages.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
